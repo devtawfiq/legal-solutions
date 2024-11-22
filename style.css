@@ -1,0 +1,25 @@
+.custom-container{
+    max-width: 61.5%;
+    margin: auto;
+}
+@media (max-width: 640px) {
+    .custom-container{
+        max-width: 90%;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .custom-container{
+        max-width: 85%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .custom-container{
+        max-width: 80%;
+    }
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "EB Garamond", serif;
+}
