@@ -23,3 +23,19 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-family: "EB Garamond", serif;
 }
+/* Banner SEction */
+.bg-custom-banner{
+    background:linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.346)), url(images/banner.png) no-repeat center center;
+    background-size: cover;
+}
+/* bg-custom-slider */
+.bg-custom-slider{
+    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url(./images/banner.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 8px;
+}
+.bg-custom-slider .btn.btn-circle {
+	background: transparent;
+	border: none;
+	color: white;
+}
