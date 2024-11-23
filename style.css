@@ -34,8 +34,8 @@ h1, h2, h3, h4, h5, h6{
     background-size: cover;
     border-radius: 8px;
 }
-.bg-custom-slider .btn.btn-circle {
-	background: transparent;
-	border: none;
-	color: white;
+.custom-carusel-btn {
+	background: transparent !important;
+	border: none !important;
+	color: white !important;
 }
